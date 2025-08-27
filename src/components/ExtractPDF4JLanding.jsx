@@ -3,7 +3,11 @@ import { Github, BookOpen, Download, Shield, Boxes, ScanLine, FileText, ChevronR
 
 export default function ExtractPDF4JLanding(){
   const [copied, setCopied] = useState(false)
-  const maven = `<dependency>\n  <groupId>com.extractpdf4j</groupId>\n  <artifactId>extractpdf4j</artifactId>\n  <version>1.0.0</version>\n</dependency>`
+  const maven = `<dependency>
+  <groupId>com.extractpdf4j</groupId>
+  <artifactId>extractpdf4j</artifactId>
+  <version>1.0.0</version>
+</dependency>`
 
   const handleCopy = async () => {
     try { await navigator.clipboard.writeText(maven); setCopied(true); setTimeout(()=>setCopied(false),1600) } catch {}

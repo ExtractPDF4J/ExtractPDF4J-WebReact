@@ -1,14 +1,17 @@
-# ExtractPDF4J Site (Vite + React + Tailwind)
+# ExtractPDF4J Site (GitHub Pages ready)
 
-This version builds directly into `/docs` so GitHub Pages can serve from the **main** branch.
+- Vite `base: './'`
+- Outputs to `/docs`
+- Includes `.nojekyll` in build (copied from `public/`)
 
-## Run locally
+## Run
 npm install
 npm run dev
 
-## Build to /docs
-npm run build
+## Build
+npm run build   # -> ./docs
 
 ## Publish on GitHub Pages
-- Repo Settings → Pages → Source: **main** / **/docs**
-- Visit your URL: https://<username>.github.io/<repo>/
+- Push to repo
+- Settings → Pages → Source: **main** / **/docs**
+- Done
