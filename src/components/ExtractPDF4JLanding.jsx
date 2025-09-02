@@ -12,7 +12,6 @@ export default function ExtractPDF4JLanding(){
   const handleCopy = async () => {
     try { await navigator.clipboard.writeText(maven); setCopied(true); setTimeout(()=>setCopied(false),1600) } catch {}
   }
-
   return (
     <div className="min-h-screen bg-neutral-950 text-neutral-100 antialiased">
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/70 border-b border-white/10">
