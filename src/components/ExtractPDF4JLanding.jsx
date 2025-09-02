@@ -27,7 +27,7 @@ export default function ExtractPDF4JLanding(){
             <a href={import.meta.env.BASE_URL + 'docs/index.html'} className="hover:text-white transition">Docs</a>
           </nav>
           <div className="flex items-center gap-2">
-            <a href="https://github.com/yourusername/ExtractPDF4J" target="_blank" className="inline-flex items-center gap-2 rounded-xl bg-white/10 hover:bg-white/20 transition px-3 py-2 text-sm">
+            <a href="https://github.com/yourusername/ExtractPDF4J" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-white/10 hover:bg-white/20 transition px-3 py-2 text-sm">
               <Github className="size-4" /> GitHub
             </a>
           </div>
@@ -53,7 +53,7 @@ export default function ExtractPDF4JLanding(){
               A modern, open-source library inspired by Camelot & Tabula, built for the JVM. Robust parsing, multi-page detection, and OCR for tough scans.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-              <a href="https://github.com/yourusername/ExtractPDF4J" target="_blank" className="inline-flex items-center gap-2 rounded-2xl bg-sky-500 px-5 py-3 font-medium text-neutral-900 shadow-lg hover:shadow-xl active:scale-[.99]">
+              <a href="https://github.com/yourusername/ExtractPDF4J" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-2xl bg-sky-500 px-5 py-3 font-medium text-neutral-900 shadow-lg hover:shadow-xl active:scale-[.99]">
                 <Github className="size-5" /> Star on GitHub
               </a>
               <a href={import.meta.env.BASE_URL + 'docs/index.html'} className="inline-flex items-center gap-2 rounded-2xl border border-white/15 px-5 py-3 font-medium hover:bg-white/10">
@@ -94,7 +94,7 @@ export default function ExtractPDF4JLanding(){
           </div>
           <pre className="mt-4 overflow-x-auto rounded-xl bg-neutral-900 p-4 text-sm text-neutral-200">{maven}</pre>
           <div className="mt-4 flex flex-wrap gap-2 text-sm text-neutral-300">
-            <a href="https://github.com/yourusername/ExtractPDF4J/releases" target="_blank" className="inline-flex items-center gap-2 rounded-lg bg-white/10 px-3 py-2 hover:bg-white/20"><Download className="size-4"/> Releases</a>
+            <a href="https://github.com/yourusername/ExtractPDF4J/releases" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-lg bg-white/10 px-3 py-2 hover:bg-white/20"><Download className="size-4"/> Releases</a>
             <a href={import.meta.env.BASE_URL + 'docs/index.html'} className="inline-flex items-center gap-2 rounded-lg bg-white/10 px-3 py-2 hover:bg-white/20"><BookOpen className="size-4"/> Read the docs</a>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function ExtractPDF4JLanding(){
         <div className="mx-auto max-w-7xl px-4 py-10 text-sm text-neutral-400 flex flex-col md:flex-row items-center justify-between gap-4">
           <p>© {new Date().getFullYear()} ExtractPDF4J • Apache-2.0</p>
           <div className="flex items-center gap-3">
-            <a href="https://github.com/yourusername/ExtractPDF4J" target="_blank" className="inline-flex items-center gap-2 hover:text-white"><Github className="size-4"/> GitHub</a>
+            <a href="https://github.com/yourusername/ExtractPDF4J" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-white"><Github className="size-4"/> GitHub</a>
             <a href={import.meta.env.BASE_URL + 'docs/index.html'} className="inline-flex items-center gap-2 hover:text-white"><BookOpen className="size-4"/> Docs</a>
           </div>
         </div>
