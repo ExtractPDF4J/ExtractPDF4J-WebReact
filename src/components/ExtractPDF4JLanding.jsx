@@ -10,7 +10,14 @@ export default function ExtractPDF4JLanding(){
 </dependency>`
 
   const handleCopy = async () => {
-    try { await navigator.clipboard.writeText(maven); setCopied(true); setTimeout(()=>setCopied(false),1600) } catch {}
+    try {
+      await navigator.clipboard.writeText(maven)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 1600)
+    } catch (err) {
+      console.error('Failed to copy to clipboard', err)
+      alert('Failed to copy to clipboard')
+    }
   }
 
   return (
